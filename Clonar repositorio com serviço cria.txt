@@ -1,0 +1,12 @@
+Clonar repositorio com serviço criado
+
+Instalar fastify e instanciar no index.js assim como no express
+
+Call listen e passar objeto com propriedade port e informar a porta que o servidor escutara e uma => com console.log
+
+Criar rota de teste get
+
+Criar pasta routes e criar arquivo emailRoutes.js
+Criar async function EmailRoutes(){} com parametro server e encapsular a rota get de teste e exportar a mes
+
+Dentro de server chamar o register e passar de argumento a função EmailRoutes

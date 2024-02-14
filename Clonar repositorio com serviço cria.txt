@@ -10,3 +10,7 @@ Criar pasta routes e criar arquivo emailRoutes.js
 Criar async function EmailRoutes(){} com parametro server e encapsular a rota get de teste e exportar a mes
 
 Dentro de server chamar o register e passar de argumento a função EmailRoutes
+
+Criar controller EmailController() e importart MailQueue, criar async function sendEmail com req e reply(que seria o res do express) resgatar o body da req atraves de destructuring, usar o metodo add para enviar o email com os dados e o template
+
+Instalar o fastfy/cors e fastify/body para corrigir o problema de cors do navegador que impede que aplicação rode se as origens forem diferentes, realizar a config de cors no index

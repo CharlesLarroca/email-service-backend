@@ -1,6 +1,6 @@
 const MailQueue = require('../queue/MailQueue')
 
-async function sendEmail(request, reply){
+async function sendEmail(req, reply){
   const {
     firstName,
     lastName,
